@@ -1,7 +1,7 @@
 <?php
   // No Render, pegue a "External Connection String" no painel do banco
   // Exemplo: postgres://user:password@host:port/dbname
-  $connectionString = "host=seu-host.render.com dbname=seu-db user=seu-user password=sua-senha sslmode=require";
+  $connectionString = "host=dpg-d6hlveogjchc73craeug-a dbname=ninjitdb user=ninjitdb_user password=PALqBqFOnTTdu6g6YvWHWhjFYDbz5dVF sslmode=require";
   $secret = 'SuaSenhaSuperSecreta123';
 
   $receivedToken = $_SERVER['HTTP_X_API_TOKEN'] ?? '';
